@@ -1,0 +1,139 @@
+.latestMatch-container {
+  background-color: #0f172a;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .latestMatch-container {
+    flex-direction: row;
+  }
+}
+
+.recent-match-top-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-top-section {
+    padding: 25px;
+    width: 67%;
+    justify-content: space-between;
+  }
+}
+
+.recent-match-top-section-text-container {
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-top-section-text-container {
+    width: 75%;
+    text-align: left;
+    padding: 15px;
+    line-height: 200%;
+  }
+}
+
+.opp-team-name {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .opp-team-name {
+    font-family: 'Bree Serif';
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+}
+
+.match-date {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .match-date {
+    font-family: 'Bree Serif';
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+}
+
+.match-venue {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .match-venue {
+    font-family: 'Bree Serif';
+    font-size: 16px;
+    color: #ffffff;
+  }
+}
+
+.opp-team-logo {
+  height: 70px;
+  width: 70px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .opp-team-logo {
+    height: 210px;
+    width: 180px;
+    align-self: center;
+  }
+}
+
+.img-container {
+  width: 40%;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-container {
+    width: 40%;
+  }
+}
+
+.separator {
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.match-stats {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-stats {
+    width: 33%;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 35px;
+    text-align: right;
+  }
+}

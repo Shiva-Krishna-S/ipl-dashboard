@@ -1,0 +1,83 @@
+.match-card {
+  list-style-type: none;
+  background-color: #0f172a;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  width: 46%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 32%;
+    margin-bottom: 30px;
+  }
+}
+
+.opp-team-image {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .opp-team-image {
+    height: 150px;
+    width: 100px;
+  }
+}
+
+.match-card-team-name {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-team-name {
+    font-size: 24px;
+  }
+}
+
+.match-card-team-won {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-team-won {
+    font-size: 18px;
+  }
+}
+
+.match-won {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #18ed66;
+}
+
+@media screen and (min-width: 768px) {
+  .match-won {
+    font-size: 24px;
+  }
+}
+
+.match-lost {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .match-lost {
+    font-size: 24px;
+  }
+}
