@@ -81,7 +81,7 @@ class TeamMatches extends Component {
       case 'MI':
         return 'mi'
       case 'SH':
-        return 'srh'
+        return 'sh'
       case 'DC':
         return 'dc'
       default:
